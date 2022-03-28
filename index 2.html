@@ -1,0 +1,206 @@
+<html>
+    <head>
+        <title>Real Time Image Identification App</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+      <body>
+          <div class="container">
+        <center>
+            <h3 class="heading">Case Study Between Google Lens and Mobilenet
+              <br> <br>
+              <div class="glens">GOOGLE LENS
+                  <img src="0-6111_google-lens-hd-png-download.png" width="160" height="120">
+              
+              <br>
+              <h3 class="versus">VS</h3>
+              <br>
+              <h3 class="mbnet">MOBILENET</h3>
+            </div>
+
+
+            <div class="bob bg-primary">
+
+                  <br>  <b>Test Image : </b>
+                    <br> <br><img src="comb.jpeg" width="300" height="300" class="img-responsive">
+
+              <h5>Output on <b>Google Lens</b> - 
+              <span>Tangle Teezer Pink Brush</span></h5>
+                <br>
+              <h5><b>MobileNet Model - </b>
+              <span>Microphone or Mike</span></h5>
+
+          <div class="mini_result">
+              <h4>Result - </h4>
+              <hr>
+              <h4>GOOGLE LENS is more accurate.</h4>
+          </div>
+          
+            </div>
+            <div class="bob bg-primary">
+
+              <br>  <b>Test Image : </b>
+                <br> <br><img src="cream.jpeg" width="300" height="300" class="img-responsive">
+
+          <h5>Output on <b>Google Lens</b> - 
+          <span>SebaMed Baby Lotion 400ml</span></h5>
+            <br>
+          <h5><b>MobileNet Model - </b>
+          <span>Lotion</span></h5>
+
+      <div class="mini_result">
+          <h4>Result - </h4>
+          <hr>
+          <h4>GOOGLE LENS is more accurate.</h4>
+      </div>
+      
+        </div>            <div class="bob bg-primary">
+
+          <br>  <b>Test Image : </b>
+            <br> <br><img src="mask.jpeg" width="300" height="300" class="img-responsive">
+
+      <h5>Output on <b>Google Lens</b> - 
+      <span>Single Layer Black Cotton Hosiery Face Mask</span></h5>
+        <br>
+      <h5><b>MobileNet Model - </b>
+      <span>Ski Mask</span></h5>
+
+  <div class="mini_result">
+      <h4>Result - </h4>
+      <hr>
+      <h4>GOOGLE LENS is more accurate.</h4>
+  </div>
+  
+    </div>            <div class="bob bg-primary">
+
+      <br>  <b>Test Image : </b>
+        <br> <br><img src="mouse.jpeg" width="300" height="300" class="img-responsive">
+
+  <h5>Output on <b>Google Lens</b> - 
+  <span>Logitech Pebble Mouse Wireless Bluetooth Mouse Office Mouse Symetric Mouse</span></h5>
+    <br>
+  <h5><b>MobileNet Model - </b>
+  <span>Computer Mouse</span></h5>
+
+<div class="mini_result">
+  <h4>Result - </h4>
+  <hr>
+  <h4>GOOGLE LENS is more accurate.</h4>
+</div>
+
+</div>            <div class="bob bg-primary">
+
+  <br>  <b>Test Image : </b>
+    <br> <br><img src="phone cover.jpeg" width="300" height="300" class="img-responsive">
+
+<h5>Output on <b>Google Lens</b> - 
+Moschino iPhone 12 pro Teddy Studs Cover </h5>
+<br>
+<h5><b>MobileNet Model - </b>
+<span>iPod</span></h5>
+
+<div class="mini_result">
+<h4>Result - </h4>
+<hr>
+<h4>GOOGLE LENS is more accurate.</h4>
+</div>
+
+</div>            <div class="bob bg-primary">
+
+  <br>  <b>Test Image : </b>
+    <br> <br><img src="sanitizer.jpeg" width="300" height="300" class="img-responsive">
+
+<h5>Output on <b>Google Lens</b> - 
+<span>Sunshine and Lemons Cleansing Hand Spray</span></h5>
+<br>
+<h5><b>MobileNet Model - </b>
+<span>Perfume</span></h5>
+
+<div class="mini_result">
+<h4>Result - </h4>
+<hr>
+<h4>GOOGLE LENS is more accurate.</h4>
+</div>
+
+</div>            <div class="bob bg-primary">
+
+  <br>  <b>Test Image : </b>
+    <br> <br><img src="sunglasses.jpeg" width="300" height="300" class="img-responsive">
+
+<h5>Output on <b>Google Lens</b> - 
+<span>Chanel Luxottica Sunglasses</span></h5>
+<br>
+<h5><b>MobileNet Model - </b>
+<span>Sunglasses</span></h5>
+
+<div class="mini_result">
+<h4>Result - </h4>
+<hr>
+<h4>GOOGLE LENS is more accurate.</h4>
+</div>
+
+</div>            <div class="bob bg-primary">
+
+  <br>  <b>Test Image : </b>
+    <br> <br><img src="vaseline.jpeg" width="300" height="300" class="img-responsive">
+
+<h5>Output on <b>Google Lens</b> - 
+<span>Vaseline Blue Seal Pure Petroleum Jelly</span></h5>
+<br>
+<h5><b>MobileNet Model - </b>
+<span>Lighter</span></h5>
+
+<div class="mini_result">
+<h4>Result - </h4>
+<hr>
+<h4>GOOLE LENS is more accurate.</h4>
+</div>
+
+</div>            <div class="bob bg-primary">
+
+  <br>  <b>Test Image : </b>
+    <br> <br><img src="watch.jpeg" width="300" height="300" class="img-responsive">
+
+<h5>Output on <b>Google Lens</b> - 
+<span>Apple Watch</span></h5>
+<br>
+<h5><b>MobileNet Model - </b><span>Totem Pole</span></h5>
+
+<div class="mini_result">
+<h4>Result - </h4>
+<hr>
+<h4>GOOGLE LENS is more accurate.</h4>
+</div>
+
+</div>            <div class="bob bg-primary">
+
+  <br>  <b>Test Image : </b>
+    <br> <br><img src="slippers.jpeg" width="300" height="300" class="img-responsive">
+
+<h5>Output on <b>Google Lens</b> - 
+<span>Under Armour Ignite VI Graphic Footbed Slides</span></h5>
+<br>
+<h5><b>MobileNet Model - </b>
+<span>Cowboy Boot</span></h5>
+
+<div class="mini_result">
+<h4>Result - </h4>
+<hr>
+<h4>GOOGLE LENS is more accurate.</h4>
+</div>
+
+</div>
+
+            </center>
+        </div>
+
+        
+      </body>
+</html>
